@@ -33,24 +33,28 @@
             </div> 
 	    </div>
 
-	    <div class="content-wrapper">
-	    	<div class="two-column-wrapper">
-	    		<div id="profile-img" class="profile-image-wrapper">
-	    			<img src="images/profileimage.jpg">
+	    <div class="container" style="
+	    	 grid-template-columns: auto auto auto auto;
+	    	 padding: 1px;">
+	    	
+	    		<div id="profile-img" class="profile-image-wrapper col-md-6" style="
+	    		    grid-row: 1;
+  			    size: 100%;">
+	    		    <img src="images/profileimage.jpg">
 	    		</div>
 
-	    		<div class="profile-content-wrapper">
-	    			<div class="bio">
-	    				<h1 id="about-heading">Hi, thanks for visiting my site!</h1>
+	    		<div class="col-md-6">
+	    			<h1 id="about-heading" style="color: blueviolet;">Hi, thanks for visiting my site!</h1>
 	    		
-	    				<p>My name is Anne (Apple) Wangui, a 23 year old IT student at KCA University, and a freelaancing full-stack web developer.
-	    				<br>
-	    			    I use HTML, CSS, Bootstrap and Javascript for front end development of websites, and Python and Django for backend development.</p>
-	    			</div>
+	    			<p>My name is Anne (Apple) Wangui, a 23 year old IT student at KCA University, and a freelaancing full-stack web developer.
+	    			<br>
+	    			I use HTML, CSS, Bootstrap and Javascript for front end development of websites, and Python and Django for backend development.</p>
+	    		
 	    		</div>
 	    		
+	    	
 	    	</div>
-	    </div>
+	    
 
     </div>  
 </body>
