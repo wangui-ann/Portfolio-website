@@ -1,0 +1,62 @@
+body {
+	margin: 0;
+}
+
+.container {
+	display: grid;
+	grid-template-columns: 1fr;
+}
+
+.active-nav-link{
+	border-bottom: 1px solid black;
+	font-weight: bold;
+}
+
+.active-nav-link #a {
+	color: black !important; 
+}
+
+.right-side{
+	display: flex;
+}
+
+.right-side .brand {
+	margin-right: 5px;
+	font-weight: bold;
+	color: purple;
+}
+
+.icon img {
+	height: 20px;
+	width: 100%;
+}
+
+
+.content-wrapper {
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+}
+
+.two-column-wrapper {
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+}
+
+.profile-image-wrapper img {
+	width: 100%;
+	float: left;
+}
+
+.profile-content-wrapper {
+	padding: 30px;
+	width: 100%;
+	font-size: 2em;
+}
+
+.profile-content-wrapper .bio {
+	padding: 30px;
+}
+
+.profile-content-wrapper #about-heading {
+	color: paleturquoise;
+}
